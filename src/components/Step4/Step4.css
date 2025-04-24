@@ -1,0 +1,84 @@
+.triodion-regular {
+  font-family: "Triodion", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.step-container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.spaced-text {
+  color: rgb(246, 226, 226);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: -25;
+  font-family: 'Triodion', sans-serif;
+  position: relative;
+  top: -15px;
+}
+
+.label-outra-conta{
+  font-size: 2.2rem !important;
+  position: relative;
+  text-align: center;
+  left: 10px;
+  top: -255px !important;
+}
+
+.btn-container {
+  margin-top: 10px;
+  top: -15px;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.btn-primary-SIM {
+  padding: 10px 20px;
+  position: relative;
+  right: 23px;
+  top: -200px;
+  width: 20%;
+  font-size: 1.3rem;
+  background-color: rgba(221, 250, 78, 0.541);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 8px;
+}
+
+.btn-secondary-NAO {
+  position: relative;
+  padding: 10px 20px;
+  width: 20%;
+  font-size: 1.3rem;
+  left: 23px;
+  top: -200px;
+  background-color: rgb(238, 21, 21);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 8px;
+}

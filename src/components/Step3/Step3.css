@@ -1,0 +1,112 @@
+.triodion-regular {
+  font-family: "Triodion", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.step-container {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  position: relative;
+  padding-bottom: 120px; /* Espaço para o botão aparecer */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.spaced-text {
+  color: rgb(246, 226, 226);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Triodion', sans-serif;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.label-nova-conta {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -122px!important;
+  font-family: 'Triodion', sans-serif;
+}
+
+.label-valor-nova-conta {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -110px!important;
+  font-family: 'Triodion', sans-serif;
+}
+
+.input-field-nomeconta,
+.input-field-valorconta {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: rgba(247, 247, 247, 0.2);
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+  position: relative;
+  top: -123px;
+}
+
+.input-field-nomeconta::placeholder,
+.input-field-valorconta::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.erro-mensagem {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -120px;
+}
+
+.btn-primary-step3 {
+  padding: 10px 20px;
+  width: 60%;
+  font-size: 1.3rem;
+  background: linear-gradient(90deg, #5a2727bc, #ab5656);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  top: -105px; 
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-primary-step3:hover {
+  background: linear-gradient(90deg, #775f60, #673333);
+}
+
+.btn-primary-step3.opacity-50 {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

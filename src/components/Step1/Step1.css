@@ -1,0 +1,157 @@
+.triodion-regular {
+  font-family: "Triodion", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.step-container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.spaced-text {
+  color: rgb(246, 226, 226);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: -25;
+  font-family: 'Triodion', sans-serif;
+  position: relative;
+  top: -15px;
+}
+
+
+.large-input {
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+form .label-pergunta-1{
+ font-size: 2.5rem;
+ position: relative ;
+ text-align: center;
+ left: 155px;
+ top: -290px;
+}
+
+.input-field-1 {
+  position: relative;
+ text-align: center;
+ left:-140px;
+ top: -220px;
+ border-radius: 8px;
+ color: white;
+  font-size: 1.55rem;
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgba(247, 247, 247, 0.207);
+  margin-bottom: 5px;
+
+}
+
+.btn-container-1 {
+  position: relative;
+  margin-top: 65px;
+  top: -250px;
+  left: 70px; 
+  display: flex;
+  justify-content: center;
+  width: 460px;        
+  height: 60px;
+}
+
+.text-aviso-1 {
+  position: relative;
+  top: -220px;
+  text-align: center;
+}
+
+
+.btn-primary-step1 {
+  position: relative;
+  padding: 10px 20px;
+  width: 50%;
+  top: -30px;
+  left: 0px;
+  font-size: 1.3rem;
+  background: linear-gradient(90deg, #5a2727bc, #ab5656);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 8px;
+}
+
+.btn-primary-step1:hover {
+  background: linear-gradient(90deg, #775f60, #673333);
+}
+
+/* RESPONSIVIDADE EM CONSTRUÇÃO! */
+@media (max-width: 600px) {
+  .spaced-text {
+    font-size: 1.4rem;
+  }
+
+  form .label-pergunta-1 {
+    font-size: 1.5rem !important;
+    left: 0 !important;
+    top: 0 !important;
+    text-align: left;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .input-field-1 {
+    width: 90%;
+    max-width: 400px;
+    font-size: 1.5rem;
+    padding: 12px;
+    margin: 0 auto 10px auto;
+    display: block;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(247, 247, 247, 0.207);
+    text-align: center;
+  }
+
+  .btn-container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .btn-primary-step1 {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 12px;
+  background: linear-gradient(90deg, #5a2727bc, #ab5656);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+  .text-aviso-1 {
+    font-size: 0.85rem;
+  }
+}
+
+

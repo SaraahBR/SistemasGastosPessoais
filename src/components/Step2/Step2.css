@@ -1,0 +1,84 @@
+.triodion-regular {
+  font-family: "Triodion", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spaced-text {
+  color: rgb(246, 226, 226);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  margin-left: -25;
+  font-family: 'Triodion', sans-serif;
+  position: relative;
+  top: -15px;
+}
+
+
+.large-input {
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+.btn-container-2 {
+  
+  margin-top: 10px; 
+  top: -15px;
+  position: relative;
+  justify-content: center;
+  gap: 10px; 
+  
+}
+
+
+form .label-pergunta-mes{
+  font-size: 2.2rem;
+  position: relative;
+  text-align: center;
+  left: 5px;
+  top: -300px;
+ }
+
+.input-field-2 {
+ position: relative;
+ text-align: center;
+ left: 5px;
+ top: -270px;
+ border-radius: 8px;
+ color: white;
+  font-size: 1.55rem;
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgba(247, 247, 247, 0.207);
+  margin-bottom: 05px;
+}
+
+
+.text-aviso-2 {
+  position: relative;
+  top: -260px;
+  text-align: center;
+}
+
+
+form .btn-primary-step2 {
+  position: relative;
+  padding: 10px 20px;
+  width: 50%;
+  left: 5px;
+  top: -255px;
+  font-size: 1.3rem;
+  background: linear-gradient(90deg, #5a2727bc, #ab5656);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 8px;
+}
+
+.btn-primary-step2:hover {
+  background: linear-gradient(90deg, #775f60, #673333);
+}

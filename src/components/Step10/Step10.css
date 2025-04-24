@@ -1,0 +1,289 @@
+.titulo-historico {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+  position: relative;
+  top: 12px;
+  min-height: 40px;        
+}
+
+.historico-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.historico-mes {
+  margin-bottom: 10px;
+}
+
+.titulo-mes {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  right: 06px;
+}
+
+.emoji {
+  margin-right: 5px;
+}
+
+.texto-mes {
+  font-style: italic;
+}
+
+.conteudo-mes {
+  position: relative;
+  top: -150px;
+  padding: -2px 2px;
+  background-color: rgba(232, 213, 213, 0.111);
+  border-radius: 10px;
+  border: 4px solid rgba(255, 255, 255, 0.244);
+  box-shadow: 0 0 20px rgb(19, 18, 18);
+  height: auto;
+  max-width: 300px; 
+  margin: 0 auto;   
+}
+
+.visualizar-gastos-container {
+  min-height: 350px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.historico-apagado {
+  color: white;
+  font-weight: bold;
+  background-color: #800;
+  padding: 12px 20px;
+  position: relative;
+  bottom: 200px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.detalhes-container {
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(123, 114, 114, 0.264);
+  border: 1px solid rgba(255, 255, 255, 0.608);
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+
+  min-height: 134px;
+  max-height: 134px;
+
+  text-align: center;
+  display: block; 
+  flex-direction: column;
+  justify-content: center;      
+  align-items: center;          
+
+  overflow-y: auto;
+}
+
+.detalhes-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.detalhes-container::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 3px;
+}
+
+
+.total-valor {
+  font-weight: bold;
+  color: white;
+  border: 1px solid rgb(187, 175, 175);
+  background: rgba(53, 52, 52, 0);
+  padding: 7px 12px;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.668);
+  width: 240px;           
+  height: 50px;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.total-valor.large {
+  font-size: 1.5rem !important;
+}
+
+.total-valor.large-medium {
+  font-size: 1.4rem !important;
+}
+
+.total-valor.medium {
+  font-size: 1.2rem !important;
+}
+
+.total-valor.medium-small {
+  font-size: 1.0rem !important;
+}
+
+.total-valor.small {
+  font-size: 0.8rem !important;
+}
+
+.total-valor.ultra-small {
+  font-size: 0.6rem !important;
+}
+
+.total-valor.super-small {
+  font-size: 0.4rem !important;
+}
+
+.font-xxl p {
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.font-xl p {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.font-lg p {
+  font-size: 18px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.font-md p {
+  font-size: 16px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.font-sm p {
+  font-size: 14px;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+  gap: 190px;
+  position: relative;
+  bottom: 190px;
+}
+
+.btn-nav {
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.btn-nav.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.lixeira-container,
+.icone-container {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+.lixeira,
+.icone {
+  width: 50px;
+  height: auto;
+}
+
+.acao.esquerda {
+  position: absolute;
+  right: 600px;
+  top: 60px;
+}
+
+.acao.direita {
+  position: absolute;
+  left: 600px;
+  top: 55px;
+}
+
+.acoes-superiores {
+  position: relative;
+  height: 90px;
+  min-height: 90px;       
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.botao img {
+  width: 70px;
+  min-width: 80px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+
+.registrar-nova-consulta,
+.apagar-historico {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.registrar-nova-consulta {
+  color: limegreen;
+  text-align: center;
+}
+
+.apagar-historico {
+  color: red;
+  text-align: center;
+}
+
+.historico-apagado {
+  color: white;
+  font-weight: bold;
+  background-color: #800;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+/* RESPONSIVIDADE EM CONSTRUÇÃO! */
+@media (max-width: 600px) {
+  .total-valor {
+    font-size: 0.9rem;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .lixeira,
+  .icone {
+    width: 30px;
+  }
+
+  .detalhes-container {
+    font-size: 13px;
+  }
+}

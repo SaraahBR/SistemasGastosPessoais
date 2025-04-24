@@ -1,0 +1,28 @@
+.triodion-regular {
+  font-family: "Triodion", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.footer-icons img {
+  width: 18px;
+  height: 18px;
+}
