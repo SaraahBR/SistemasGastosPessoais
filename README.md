@@ -1,8 +1,69 @@
-# React + Vite
+# 💸 Sistema de Gastos Pessoais
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido com o objetivo de auxiliar os usuários a organizarem seus gastos mensais de forma prática, visual e intuitiva. 
 
-Currently, two official plugins are available:
+## 🧠 Funcionalidades Atuais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Cadastro do nome do usuário
+- Registro dos gastos por categoria (água, luz, aluguel, banco, pet)
+- Histórico de consultas agrupado por mês
+- Cálculo automático do total mensal
+- Visual moderno com layout animado e estilizado
+- Armazenamento local com `localStorage`
+
+⚠️ **Atenção**: O sistema está 100% funcional no **computador**, mas **a responsividade para mobile ainda está em construção** e será adicionada em breve!
+
+## 🔮 O que está por vir
+
+- Responsividade total para dispositivos móveis 📱
+- Autenticação com nome de usuário e senha
+- Envio de relatórios por e-mail
+- Integração com banco de dados via API externa
+- Aprimoramento de animações e design
+
+## 📷 Demonstração
+
+🔗 Veja o sistema em funcionamento (online via GitHub Pages):  
+👉 **[Clique aqui para acessar o sistema](https://saraahbr.github.io/SistemasGastosPessoais/)**
+
+📽️ Vídeo demonstrativo do funcionamento completo:  
+👉 **[Assista no Google Drive](https://drive.google.com/file/d/12UCXY-rqVtd0o-RX3SYe7BuzbcJ_b7QT/view?usp=sharing)**
+
+---
+
+## ⚙️ Como Executar Localmente
+
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/SaraahBR/SistemasGastosPessoais.git
+```
+
+2. **Acesse a pasta do projeto:**
+```bash
+cd SistemasGastosPessoais
+```
+
+3. **Instale as dependências:**
+```bash
+npm install
+```
+
+4. **Execute o projeto:**
+```bash
+npm run dev
+```
+
+5. **Abra no navegador:**
+```
+http://localhost:5173
+```
+
+---
+
+##  👩🏻‍🦰💻 Desenvolvedora
+
+**Sarah Hernandes**  
+Desenvolvedora Front-End em formação  
+🔗 [LinkedIn](https://www.linkedin.com/in/sarahhernandes) | 📫 vihernandesbr@gmail.com
+
+---
