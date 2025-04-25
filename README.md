@@ -63,7 +63,7 @@ http://localhost:5173
 ##  👩🏻‍🦰💻 Desenvolvedora
 
 **Sarah Hernandes**  
-Desenvolvedora FullStack 
+Desenvolvedora Full Stack  
 🔗 [LinkedIn](https://www.linkedin.com/in/sarahhernandes) | 📫 vihernandesbr@gmail.com
 
 ---
