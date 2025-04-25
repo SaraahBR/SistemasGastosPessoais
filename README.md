@@ -13,6 +13,31 @@ Este projeto foi desenvolvido com o objetivo de auxiliar os usuários a organiza
 
 ⚠️ **Atenção**: O sistema está 100% funcional no **computador**, mas **a responsividade para mobile ainda está em construção** e será adicionada em breve!
 
+## 🧰 Tecnologias, Linguagens e Bibliotecas Utilizadas
+
+### 👩‍💻 Linguagens de Programação
+- JavaScript
+- JSX (JavaScript XML)
+
+### 🎨 Estilização
+- CSS3
+- Tailwind CSS
+
+### 🛠️ Frameworks e Bibliotecas
+- React.js
+- React Router DOM
+- Framer Motion (para animações)
+
+
+### 🧪 Ferramentas de Desenvolvimento
+- Vite (build tool)
+- gh-pages (deploy GitHub Pages)
+- PostCSS e Autoprefixer (processamento de estilos)
+
+### 📦 Gerenciador de Pacotes
+- NPM (Node Package Manager)
+
+
 ## 🔮 O que está por vir
 
 - Responsividade total para dispositivos móveis 📱
@@ -66,4 +91,7 @@ http://localhost:5173
 Desenvolvedora Full Stack  
 🔗 [LinkedIn](https://www.linkedin.com/in/sarahhernandes) | 📫 vihernandesbr@gmail.com
 
+Este projeto está em constante evolução 🚀. Sinta-se à vontade para contribuir, abrir issues ou enviar feedbacks!
+
 ---
+
