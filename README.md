@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido com o objetivo de auxiliar os usuários a organizarem seus gastos mensais de forma prática, visual e intuitiva. 
 
-## 🧠 Funcionalidades Atuais
+##  Funcionalidades Atuais
 
 - Cadastro do nome do usuário
 - Registro dos gastos por categoria (água, luz, aluguel, banco, pet)
@@ -13,7 +13,7 @@ Este projeto foi desenvolvido com o objetivo de auxiliar os usuários a organiza
 
 ⚠️ **Atenção**: O sistema está 100% funcional no **computador**, mas **a responsividade para mobile ainda está em construção** e será adicionada em breve!
 
-## 🧰 Tecnologias, Linguagens e Bibliotecas Utilizadas
+##  Tecnologias, Linguagens e Bibliotecas Utilizadas
 
 ### 👩‍💻 Linguagens de Programação
 - JavaScript
@@ -38,7 +38,7 @@ Este projeto foi desenvolvido com o objetivo de auxiliar os usuários a organiza
 - NPM (Node Package Manager)
 
 
-## 🔮 O que está por vir
+##  O que está por vir?
 
 - Responsividade total para dispositivos móveis 📱
 - Autenticação com nome de usuário e senha
